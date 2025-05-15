@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="vue_wuye:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>vue_wuye</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="vue_wuye-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="vue_wuye:war exploded" />
+    </root>
+  </artifact>
+</component>
